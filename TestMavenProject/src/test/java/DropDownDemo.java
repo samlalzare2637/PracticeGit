@@ -19,7 +19,7 @@ public class DropDownDemo {
 	{
 WebDriver driver;
 		
-// new code added
+
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\manoj\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 		driver = new ChromeDriver();

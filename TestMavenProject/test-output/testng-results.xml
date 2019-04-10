@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-05T01:28:29Z" name="Default suite" finished-at="2019-04-05T01:28:35Z" duration-ms="6055">
+  <suite started-at="2019-04-10T03:10:50Z" name="Default suite" finished-at="2019-04-10T03:10:55Z" duration-ms="5194">
     <groups>
     </groups>
-    <test started-at="2019-04-05T01:28:29Z" name="Default test" finished-at="2019-04-05T01:28:35Z" duration-ms="6055">
-      <class name="stepdef.Utility">
-        <test-method signature="open_Firefox_and_start_the_App()[pri:0, instance:stepdef.Utility@3af9c5b7]" started-at="2019-04-05T01:28:29Z" name="open_Firefox_and_start_the_App" finished-at="2019-04-05T01:28:35Z" duration-ms="6036" status="PASS">
+    <test started-at="2019-04-10T03:10:50Z" name="Default test" finished-at="2019-04-10T03:10:55Z" duration-ms="5194">
+      <class name="DropDownDemo">
+        <test-method signature="testcase1()[pri:0, instance:DropDownDemo@37271612]" started-at="2019-04-10T03:10:50Z" name="testcase1" finished-at="2019-04-10T03:10:55Z" duration-ms="5167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open_Firefox_and_start_the_App -->
-      </class> <!-- stepdef.Utility -->
+        </test-method> <!-- testcase1 -->
+      </class> <!-- DropDownDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -10,10 +10,15 @@ public class WebDriverManagerTest {
 	public static void main(String[] args) 
 	
 	{
-		WebDriverManager.iedriver().setup();
-		WebDriver driver = new InternetExplorerDriver();
-		driver.get("http://www.crmpro.com");
+		WebDriver driver;
+		
+System.setProperty("webdriver.chrome.driver",
+		"C:\\Users\\manoj\\Desktop\\chromedriver.exe");
 
+		driver = new ChromeDriver();
+		driver.get("http://www.wordpress.com");
+
+		
 	}
 
 }
